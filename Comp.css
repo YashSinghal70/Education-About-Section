@@ -1,0 +1,222 @@
+/* About Course */
+.courseback{
+    background:linear-gradient( #0d0b5ad7 100%, #090742d7 100%),url("https://clipart-library.com/images/8i68KBABT.jpg");
+
+    color: white;
+    padding: 40px;
+}
+.custom-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+}
+form{
+    color: black;
+}
+.bodycardform{
+    background-color: rgba(255, 255, 255, 0.195);
+    backdrop-filter: blur(20px);
+}
+.form-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form-control::placeholder, .form-select::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-custom {
+    background-color: #196ae5;
+    color: #ffffff;
+    border: none;
+    transition: all .3s linear;
+    transform: scale(1.07);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.btn-custom img{
+    background-color: white; 
+    margin-right: 4px;
+    border-radius: 0.375rem;
+}
+.btn-custom:hover {
+    transform: scale(1.02);
+    opacity: .6;
+    background-color: #196ae5;
+}
+.btn-custom2 {
+    color: #196ae5;
+    background-color: #ffffff;
+    border: none;
+    transition: all .3s linear;
+    transform: scale(1.07);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.btn-custom2 img{
+    background-color: #78aeffa0; 
+    margin-right: 4px;
+    border-radius: 0.375rem;
+}
+.btn-custom2:hover {
+    transform: scale(1.02);
+    opacity: .6;
+    color: #196ae5;
+    background-color: #ffffff;
+}
+.btn-flex{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    /* justify-content: center; */
+}
+.company{
+    background: linear-gradient(#120bdc20 100%, #100e9f7f 100%), url(https://clipart-library.com/images/8i68KBABT.jpg);
+padding: 20px;
+}
+.company h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.company h4{
+    font-size:26px ;
+    font-weight: 700;
+    color: #0a69f6;
+}
+
+
+
+
+/* About Course */
+
+
+/* Couse Details */
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.feature-list, .skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.feature-list li, .skills-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.feature-list li::before, .skills-list li::before {
+    content: "✓";
+    color: #007bff;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 7px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    /* padding: 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.countdown-container {
+    background-color: #f8fbff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.countdown-item {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.countdown-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+.money-back {
+    background-color: #e9f7ef;
+    border: 1px solid #28a745;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #28a745;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+#contactForm{
+    background-color: #f8fbff;
+    padding: 20px;
+}
+.form-select {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+input{
+    background-color: rgba(255, 255, 255, 0.516) !important;
+}
+input::placeholder{
+    color: black !important;
+}
+.coprate-background{
+    background-color: #f8fbff;
+    padding: 20px;
+}
+.form-control,.form-select:focus {
+    color: #000000;
+    background-color: var(--bs-body-bg);
+    border-color: #009cff;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent;
+}
+
+/* Couse Details */
+
+/* Accordion */
+
+
+.accordion-button::after {
+    content: none;
+}
+.accordion-button .arrow {
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-button:not(.collapsed) .arrow {
+    transform: rotate(180deg);
+}
+.module-details {
+    color: #0056b3;
+    cursor: pointer;
+}
+.accordion-body {
+    background-color: #f8f9fa;
+}
+.accordionn-titlee{
+    font-size: 23px;
+    color: #0f1114;
+}
+.inner-content-accordion li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0f1114;
+    line-height: 30px;
+}
+.inner-content-accordion i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #b1b1b1;
+    padding: 6px
+}
+
+
+/* Accordion */
